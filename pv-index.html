@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Panneaux solaires : combien votre toit peut-il vous rapporter ? Simulation gratuite</title>
+<meta name="description" content="Simulez en 60 secondes les gains de panneaux solaires sur votre toit : économies + revente d'électricité, jusqu'à plusieurs milliers d'euros par an. Étude gratuite par un installateur RGE.">
+<meta name="keywords" content="panneaux solaires, simulation panneaux solaires, rentabilité panneaux solaires, prix panneaux photovoltaïques, devis panneaux solaires, autoconsommation solaire, prime photovoltaïque, revente électricité">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<meta name="theme-color" content="#0b2a4a">
+<link rel="canonical" href="https://solaire-experts.com/">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:title" content="Combien votre toit peut-il vous rapporter en solaire ?">
+<meta property="og:description" content="Simulez gratuitement les gains de panneaux solaires sur votre toit en 60 secondes.">
+<meta property="og:url" content="https://solaire-experts.com/">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@graph":[
+{"@type":"WebSite","url":"https://solaire-experts.com/","name":"Solaire-Experts","inLanguage":"fr-FR"},
+{"@type":"Service","serviceType":"Installation de panneaux solaires photovoltaïques","areaServed":"FR","name":"Simulation de rentabilité solaire","description":"Simulation gratuite des gains de panneaux solaires (économies + revente) et mise en relation avec un installateur RGE."},
+{"@type":"FAQPage","mainEntity":[
+{"@type":"Question","name":"Les panneaux solaires sont-ils rentables en 2026 ?","acceptedAnswer":{"@type":"Answer","text":"Oui. Entre l'autoconsommation qui réduit votre facture, la prime à l'autoconsommation et la revente du surplus à un tarif garanti sur 20 ans, une installation est généralement rentabilisée en 8 à 12 ans, puis génère du gain net."}},
+{"@type":"Question","name":"Combien peut rapporter un toit solaire ?","acceptedAnswer":{"@type":"Answer","text":"Selon la surface, l'orientation et votre consommation, une maison peut économiser et revendre pour plusieurs centaines à plusieurs milliers d'euros par an. La simulation vous donne une estimation personnalisée."}},
+{"@type":"Question","name":"La simulation est-elle gratuite ?","acceptedAnswer":{"@type":"Answer","text":"Oui, la simulation et l'étude par un installateur RGE sont 100% gratuites et sans engagement."}},
+{"@type":"Question","name":"Quelles aides pour le photovoltaïque ?","acceptedAnswer":{"@type":"Answer","text":"La prime à l'autoconsommation, le tarif d'achat garanti du surplus par EDF OA, et une TVA réduite selon la puissance. Ces dispositifs améliorent fortement la rentabilité."}}
+]}]}
+</script>
+<style>
+  :root{--navy:#0b2a4a;--blue:#1f6feb;--gold:#f6b73c;--gold2:#e0a01f;--ink:#111c2b;--muted:#5a6b80;--line:#e3e9f2;--soft:#f2f6fc;--ok:#1e8e5a}
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;color:var(--ink);line-height:1.6;-webkit-font-smoothing:antialiased;background:#fff}
+  a{color:var(--blue)}
+  .wrap{max-width:1000px;margin:0 auto;padding:0 20px}
+  header{background:var(--navy);color:#fff}
+  .nav{display:flex;align-items:center;justify-content:space-between;height:58px}
+  .logo{font-weight:800;font-size:18px;color:#fff;display:flex;align-items:center;gap:8px}
+  .logo .d{width:11px;height:11px;border-radius:50%;background:var(--gold)}
+  .nav .ph{font-size:13px;color:#a9c6ef}
+  @media(max-width:600px){.nav .ph{display:none}}
+  .hero{background:linear-gradient(165deg,#0b2a4a 0%,#123b66 55%,#1f6feb 100%);color:#fff;padding:34px 0 60px;min-height:78vh;position:relative;overflow:hidden}
+  .hero:after{content:"☀️";position:absolute;top:18px;right:24px;font-size:52px;opacity:.5}
+  .badgebar{display:flex;gap:16px;justify-content:center;flex-wrap:wrap;font-size:12.5px;color:#bcd4f5;margin-bottom:20px}
+  .badgebar b{color:#fff}
+  .card-funnel{background:#fff;color:var(--ink);border-radius:20px;box-shadow:0 30px 70px -22px rgba(2,18,40,.65);max-width:640px;margin:0 auto;overflow:hidden;position:relative;z-index:2}
+  .fbar{height:7px;background:var(--soft)}
+  .fbar i{display:block;height:100%;width:0;background:linear-gradient(90deg,var(--gold),#ffd980);transition:width .4s ease}
+  .fbody{padding:28px 28px 32px}
+  @media(max-width:520px){.fbody{padding:22px 18px 26px}}
+  /* live earnings meter */
+  .meter{display:none;align-items:center;justify-content:space-between;gap:12px;background:linear-gradient(120deg,#fff6e2,#fff);border:1px solid #f3dfae;border-radius:13px;padding:12px 15px;margin-bottom:18px}
+  .meter.on{display:flex}
+  .meter .ml{font-size:12px;color:var(--muted)}
+  .meter .mv{font-size:24px;font-weight:900;color:var(--gold2);letter-spacing:-.5px}
+  .meter .badge{font-size:11px;background:var(--gold);color:#3a2600;padding:4px 9px;border-radius:20px;font-weight:800}
+  .step{display:none;animation:fade .35s ease}.step.on{display:block}
+  @keyframes fade{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+  .qh{font-size:22px;font-weight:800;color:var(--navy);margin-bottom:4px;line-height:1.25}
+  .qsub{font-size:14px;color:var(--muted);margin-bottom:18px}
+  .opts{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+  .opts.three{grid-template-columns:1fr 1fr 1fr}
+  @media(max-width:520px){.opts,.opts.three{grid-template-columns:1fr 1fr}}
+  .opt{border:2px solid var(--line);border-radius:13px;padding:16px 12px;text-align:center;cursor:pointer;font-weight:700;font-size:15px;color:var(--ink);transition:.14s;background:#fff;display:flex;flex-direction:column;align-items:center;gap:7px}
+  .opt:hover{border-color:var(--blue);background:var(--soft);transform:translateY(-2px)}
+  .opt .ic{font-size:26px}
+  .tip{margin-top:16px;background:#eef4ff;border:1px solid #cfe0fb;border-radius:11px;padding:11px 13px;font-size:12.5px;color:#1c4b8f}
+  .tip b{color:#123b6f}
+  .navrow{display:flex;justify-content:space-between;align-items:center;margin-top:20px}
+  .backb{background:none;border:none;color:var(--muted);font-size:13.5px;cursor:pointer;font-family:inherit}.backb:hover{color:var(--blue)}
+  .cta{display:inline-flex;align-items:center;justify-content:center;gap:8px;background:var(--gold);color:#3a2600;border:none;border-radius:11px;padding:15px 28px;font-size:16px;font-weight:800;cursor:pointer;font-family:inherit;transition:.15s}
+  .cta:hover{background:var(--gold2);transform:translateY(-1px)}.cta.full{width:100%}
+  input,select{width:100%;padding:13px 14px;border:1px solid var(--line);border-radius:10px;font-size:15px;font-family:inherit;background:#fbfdff;margin-bottom:11px}
+  input:focus,select:focus{outline:2px solid var(--blue);border-color:transparent}
+  .row2{display:grid;grid-template-columns:1fr 1fr;gap:11px}@media(max-width:440px){.row2{grid-template-columns:1fr}}
+  .pitch h1{font-size:26px;line-height:1.22;color:var(--navy);margin-bottom:10px}.pitch h1 span{color:var(--gold2)}
+  .pitch p.l{font-size:15px;color:var(--muted);margin-bottom:18px}
+  .pitch ul{list-style:none;display:flex;flex-direction:column;gap:8px;margin-bottom:20px}
+  .pitch li{display:flex;gap:9px;font-size:14.5px}.pitch li:before{content:"☀️"}
+  .startmeta{text-align:center;font-size:12.5px;color:var(--muted);margin-top:12px}
+  .analyse{text-align:center;padding:14px 0}
+  .analyse .ring{width:66px;height:66px;border:5px solid var(--soft);border-top-color:var(--gold);border-radius:50%;margin:0 auto 20px;animation:spin 1s linear infinite}
+  @keyframes spin{to{transform:rotate(360deg)}}
+  .aline{display:flex;align-items:center;gap:10px;justify-content:center;font-size:14px;color:var(--muted);padding:6px 0;opacity:.35;transition:.3s}
+  .aline.done{opacity:1;color:var(--ink)}.aline .ck{color:var(--ok);font-weight:800}
+  .result{text-align:center}
+  .result .big{font-size:15px;color:var(--muted);margin-bottom:4px}
+  .result .amount{font-size:40px;font-weight:900;color:var(--gold2);letter-spacing:-1px;margin:2px 0 2px}
+  .result .amt2{font-size:14px;color:var(--muted);margin-bottom:16px}
+  .result .amt2 b{color:var(--ok)}
+  .result .formhead{text-align:left;font-weight:700;color:var(--navy);margin-bottom:4px;font-size:15px}
+  .result .formsub{text-align:left;font-size:12.5px;color:var(--muted);margin-bottom:14px}
+  .consent{display:flex;gap:9px;background:var(--soft);border:1px solid var(--line);border-radius:10px;padding:11px;font-size:11px;color:var(--muted);line-height:1.45;text-align:left;margin-bottom:13px}
+  .consent input{width:17px;height:17px;margin:2px 0 0;accent-color:var(--blue)}
+  .hp{position:absolute;left:-9999px}
+  .miniproof{display:flex;align-items:center;gap:8px;justify-content:center;font-size:12px;color:var(--muted);margin-top:14px}
+  .dot{width:8px;height:8px;border-radius:50%;background:#3ac07f;display:inline-block;animation:pulse 1.5s infinite}
+  @keyframes pulse{0%,100%{opacity:1}50%{opacity:.4}}
+  section.pad{padding:54px 0}
+  h2{font-size:26px;color:var(--navy);text-align:center;margin-bottom:10px}
+  .lead{text-align:center;color:var(--muted);max-width:600px;margin:0 auto 34px}
+  .steps3{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}@media(max-width:720px){.steps3{grid-template-columns:1fr}}
+  .s3{background:#fff;border:1px solid var(--line);border-radius:14px;padding:24px;text-align:center}
+  .s3 .n{width:34px;height:34px;border-radius:9px;background:var(--navy);color:#fff;font-weight:800;display:flex;align-items:center;justify-content:center;margin:0 auto 12px}
+  .s3 h3{font-size:16px;color:var(--navy);margin-bottom:6px}.s3 p{font-size:14px;color:var(--muted)}
+  .soft{background:var(--soft)}
+  .trust{display:flex;gap:26px;justify-content:center;flex-wrap:wrap;color:var(--muted);font-size:13.5px}
+  .trust b{color:var(--navy);display:block;font-size:22px}
+  details{border:1px solid var(--line);border-radius:11px;padding:15px 18px;margin-bottom:10px;background:#fff;max-width:760px;margin:0 auto 10px}
+  summary{font-weight:700;color:var(--navy);cursor:pointer}details p{margin-top:9px;color:var(--muted);font-size:14.5px}
+  footer{background:#071b30;color:#8ba7c9;padding:26px 0;font-size:12.5px;text-align:center}footer a{color:#a9c6ef}
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap nav">
+    <span class="logo"><span class="d"></span>Solaire-Experts</span>
+    <span class="ph">☀️ Installateurs RGE partenaires partout en France</span>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="wrap">
+    <div class="badgebar">
+      <span>🛡️ <b>Données protégées</b></span>
+      <span>⚡ <b>60 secondes</b></span>
+      <span>🎁 <b>Simulation gratuite</b></span>
+      <span>🇫🇷 <b>Artisans RGE</b></span>
+    </div>
+
+    <div class="card-funnel">
+      <div class="fbar"><i id="bar"></i></div>
+      <div class="fbody">
+        <div class="meter" id="meter">
+          <div><div class="ml">Gain estimé de votre toit</div><div class="mv" id="mv">— €/an</div></div>
+          <span class="badge">en direct</span>
+        </div>
+
+        <!-- STEP 0 PITCH -->
+        <div class="step on pitch" data-step="0">
+          <h1>Combien votre toit peut-il <span>vous rapporter</span> en panneaux solaires ?</h1>
+          <p class="l">Économies sur votre facture + revente de votre surplus à EDF : simulez vos gains en 60 secondes, gratuitement.</p>
+          <ul>
+            <li>Estimation personnalisée de vos gains annuels</li>
+            <li>Prime à l'autoconsommation + revente garantie 20 ans</li>
+            <li>Étude gratuite par un installateur RGE, sans engagement</li>
+          </ul>
+          <button class="cta full" onclick="start()">Lancer ma simulation gratuite →</button>
+          <div class="startmeta">⭐️⭐️⭐️⭐️⭐️ Plus de 9 000 toits étudiés cette année</div>
+        </div>
+
+        <!-- 1 logement -->
+        <div class="step" data-step="1">
+          <div class="qh">Vous habitez… ?</div>
+          <div class="opts">
+            <div class="opt" onclick="pick('type_logement','Maison',1,0)"><span class="ic">🏠</span>Une maison</div>
+            <div class="opt" onclick="pick('type_logement','Appartement',1,0)"><span class="ic">🏢</span>Un appartement</div>
+          </div>
+          <div class="tip"><b>Le saviez-vous ?</b> Une maison individuelle est le cas idéal : toute la toiture est exploitable.</div>
+        </div>
+
+        <!-- 2 statut -->
+        <div class="step" data-step="2">
+          <div class="qh">Êtes-vous propriétaire de ce logement ?</div>
+          <div class="opts">
+            <div class="opt" onclick="pick('statut','Propriétaire',2,0)"><span class="ic">🔑</span>Oui, propriétaire</div>
+            <div class="opt" onclick="pick('statut','Locataire',2,0)"><span class="ic">📋</span>Non, locataire</div>
+          </div>
+        </div>
+
+        <!-- 3 orientation -->
+        <div class="step" data-step="3">
+          <div class="qh">Quelle est l'orientation de votre toit ?</div>
+          <div class="qsub">C'est le facteur n°1 de votre production solaire.</div>
+          <div class="opts">
+            <div class="opt" onclick="pick('orientation','Sud',3,1600)"><span class="ic">🧭</span>Plein Sud<small>idéal</small></div>
+            <div class="opt" onclick="pick('orientation','Est / Ouest',3,1200)"><span class="ic">🧭</span>Est / Ouest</div>
+            <div class="opt" onclick="pick('orientation','Nord',3,700)"><span class="ic">🧭</span>Nord</div>
+            <div class="opt" onclick="pick('orientation','Je ne sais pas',3,1100)"><span class="ic">🤷</span>Je ne sais pas</div>
+          </div>
+          <div class="tip"><b>Le saviez-vous ?</b> Même Est/Ouest, une installation reste très rentable aujourd'hui.</div>
+        </div>
+
+        <!-- 4 surface toit -->
+        <div class="step" data-step="4">
+          <div class="qh">Quelle surface de toit pourriez-vous équiper ?</div>
+          <div class="opts three">
+            <div class="opt" onclick="pick('surface_toit','Petit (~20 m²)',4,-400)"><span class="ic">▫️</span>Petit<small>~20 m²</small></div>
+            <div class="opt" onclick="pick('surface_toit','Moyen (~40 m²)',4,0)"><span class="ic">◻️</span>Moyen<small>~40 m²</small></div>
+            <div class="opt" onclick="pick('surface_toit','Grand (60 m²+)',4,900)"><span class="ic">⬜️</span>Grand<small>60 m²+</small></div>
+          </div>
+        </div>
+
+        <!-- 5 facture -->
+        <div class="step" data-step="5">
+          <div class="qh">Votre facture d'électricité mensuelle ?</div>
+          <div class="qsub">Plus elle est élevée, plus vous économisez en autoconsommation.</div>
+          <div class="opts">
+            <div class="opt" onclick="pick('facture','Moins de 80 €',5,-500)"><span class="ic">💡</span>&lt; 80 €</div>
+            <div class="opt" onclick="pick('facture','80 à 150 €',5,300)"><span class="ic">💡</span>80–150 €</div>
+            <div class="opt" onclick="pick('facture','150 à 250 €',5,900)"><span class="ic">💡</span>150–250 €</div>
+            <div class="opt" onclick="pick('facture','Plus de 250 €',5,1600)"><span class="ic">💡</span>&gt; 250 €</div>
+          </div>
+        </div>
+
+        <!-- 6 code postal -->
+        <div class="step" data-step="6">
+          <div class="qh">Où se situe votre toit ?</div>
+          <div class="qsub">Pour calculer l'ensoleillement de votre zone et trouver un installateur RGE.</div>
+          <input type="text" id="cp" inputmode="numeric" maxlength="5" placeholder="Votre code postal (ex : 33000)">
+          <button class="cta full" onclick="submitCP()">Calculer mes gains →</button>
+          <div class="tip"><b>Le saviez-vous ?</b> Le surplus non consommé est racheté par EDF à un tarif garanti pendant 20 ans.</div>
+        </div>
+
+        <!-- 7 analyse -->
+        <div class="step" data-step="7">
+          <div class="analyse">
+            <div class="ring"></div>
+            <div class="aline" id="al0">☀️ Analyse de l'ensoleillement de votre zone</div>
+            <div class="aline" id="al1">⚡ Calcul de la production estimée</div>
+            <div class="aline" id="al2">💶 Estimation de vos gains sur 20 ans</div>
+            <div class="aline" id="al3">📍 Recherche d'un installateur RGE</div>
+          </div>
+        </div>
+
+        <!-- 8 result -->
+        <div class="step" data-step="8">
+          <div class="result">
+            <div class="big">☀️ Votre toit pourrait générer environ</div>
+            <div class="amount" id="amount">—</div>
+            <div class="amt2">soit <b id="amt20">—</b> de gains estimés sur 20 ans</div>
+            <div class="formhead">Recevez votre étude solaire personnalisée</div>
+            <div class="formsub">Un installateur RGE vous rappelle sous 24 h, gratuitement et sans engagement.</div>
+            <form action="capture.php" method="post" id="finalForm">
+              <input type="text" name="website" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true">
+              <input type="hidden" name="produit" value="pv">
+              <input type="hidden" name="source" value="solaire-experts.com">
+              <input type="hidden" name="type_logement" id="h_type">
+              <input type="hidden" name="orientation" id="h_or">
+              <input type="hidden" name="surface_toit" id="h_surf">
+              <input type="hidden" name="facture" id="h_fact">
+              <input type="hidden" name="code_postal" id="h_cp">
+              <div class="row2">
+                <input type="text" name="prenom" placeholder="Prénom" required autocomplete="given-name">
+                <input type="text" name="nom" placeholder="Nom" required autocomplete="family-name">
+              </div>
+              <input type="tel" name="telephone" placeholder="Téléphone" required autocomplete="tel">
+              <input type="email" name="email" placeholder="E-mail" required autocomplete="email">
+              <label class="consent"><input type="checkbox" name="consent" required>
+                <span>J'accepte d'être recontacté(e) par un <b>installateur partenaire</b> par téléphone, e-mail ou SMS au sujet de mon projet solaire. Consentement libre et révocable (voir <a href="/confidentialite.html" target="_blank">confidentialité</a>).</span>
+              </label>
+              <button class="cta full" type="submit">Recevoir mon étude gratuite →</button>
+            </form>
+            <div class="miniproof"><span class="dot"></span> 27 toits simulés aujourd'hui près de chez vous</div>
+          </div>
+        </div>
+
+        <div class="navrow" id="navrow" style="display:none">
+          <button class="backb" onclick="back()">← Retour</button>
+          <span style="font-size:12.5px;color:var(--muted)" id="stepcount"></span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="pad">
+  <div class="wrap">
+    <h2>Comment ça marche ?</h2>
+    <p class="lead">Du toit au gain, en trois étapes simples.</p>
+    <div class="steps3">
+      <div class="s3"><div class="n">1</div><h3>Simulez vos gains</h3><p>Quelques questions sur votre toit et votre consommation, 60 secondes.</p></div>
+      <div class="s3"><div class="n">2</div><h3>Recevez votre estimation</h3><p>Vos économies + revente estimées, sur l'année et sur 20 ans.</p></div>
+      <div class="s3"><div class="n">3</div><h3>Un installateur RGE vous rappelle</h3><p>Étude précise et devis gratuit, près de chez vous.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="pad soft">
+  <div class="wrap">
+    <div class="trust">
+      <div><b>20 ans</b>de revente garantie (EDF OA)</div>
+      <div><b>-40 à -70%</b>sur la facture d'électricité</div>
+      <div><b>&lt; 24 h</b>pour être recontacté</div>
+      <div><b>9 000+</b>toits étudiés en 2026</div>
+    </div>
+  </div>
+</section>
+
+<section class="pad">
+  <div class="wrap">
+    <h2>Questions fréquentes</h2>
+    <div style="margin-top:26px">
+      <details open><summary>Les panneaux solaires sont-ils rentables en 2026 ?</summary><p>Oui : entre l'autoconsommation qui réduit la facture, la prime à l'autoconsommation et la revente du surplus à tarif garanti 20 ans, l'installation est généralement rentabilisée en 8 à 12 ans, puis génère du gain net.</p></details>
+      <details><summary>Combien peut rapporter un toit solaire ?</summary><p>Selon la surface, l'orientation et votre consommation, de plusieurs centaines à plusieurs milliers d'euros par an. La simulation vous donne une estimation personnalisée.</p></details>
+      <details><summary>La simulation est-elle gratuite ?</summary><p>Oui, la simulation et l'étude par un installateur RGE sont 100% gratuites et sans engagement.</p></details>
+      <details><summary>Quelles aides pour le photovoltaïque ?</summary><p>La prime à l'autoconsommation, le tarif d'achat garanti du surplus (EDF OA) et une TVA réduite selon la puissance installée.</p></details>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">Solaire-Experts — mise en relation avec des installateurs photovoltaïques RGE. Un service du groupe 26 Leads.<br>
+  <a href="/mentions-legales.html">Mentions légales</a> · <a href="/confidentialite.html">Confidentialité</a></div>
+</footer>
+
+<script>
+const state={};
+let step=0, gain=1500;
+const TOTAL=6;
+function fmt(n){return Math.round(n).toLocaleString('fr-FR');}
+function setMeter(){document.getElementById('mv').textContent=fmt(Math.max(300,gain))+' €/an';}
+function show(n){
+  document.querySelectorAll('.step').forEach(s=>s.classList.toggle('on', +s.dataset.step===n));
+  step=n;
+  document.getElementById('bar').style.width=(n===0?0:Math.round((n/TOTAL)*100))+'%';
+  document.getElementById('meter').classList.toggle('on', n>=3 && n<=6);
+  document.getElementById('navrow').style.display=(n>=2&&n<=6)?'flex':'none';
+  document.getElementById('stepcount').textContent='Étape '+n+' / 6';
+  window.scrollTo({top:0,behavior:'smooth'});
+}
+function start(){show(1);}
+function back(){if(step>1)show(step-1);}
+function pick(key,val,fromStep,delta){
+  state[key]=val;
+  if(delta){gain+=delta; setMeter();}
+  if(fromStep<6) show(fromStep+1);
+}
+function submitCP(){
+  const cp=document.getElementById('cp').value.replace(/\D/g,'');
+  if(cp.length!==5){alert('Merci d\'indiquer un code postal valide (5 chiffres).');return;}
+  state.code_postal=cp; show(7); runAnalyse();
+}
+function runAnalyse(){
+  ['al0','al1','al2','al3'].forEach((id,i)=>setTimeout(()=>{
+    const el=document.getElementById(id); el.classList.add('done');
+    el.insertAdjacentHTML('beforeend',' <span class="ck">✓</span>');
+  },500+i*650));
+  setTimeout(showResult,500+4*650+500);
+}
+function showResult(){
+  document.getElementById('h_type').value=state.type_logement||'';
+  document.getElementById('h_or').value=state.orientation||'';
+  document.getElementById('h_surf').value=state.surface_toit||'';
+  document.getElementById('h_fact').value=state.facture||'';
+  document.getElementById('h_cp').value=state.code_postal||'';
+  const annual=Math.max(600,Math.min(gain,4200));
+  show(8);
+  const el=document.getElementById('amount'); let cur=0; const st=Math.ceil(annual/40);
+  const t=setInterval(()=>{cur+=st; if(cur>=annual){cur=annual;clearInterval(t);} el.textContent=fmt(cur)+' €/an';},22);
+  document.getElementById('amt20').textContent='jusqu\'à '+fmt(annual*20)+' €';
+}
+setMeter();
+</script>
+</body>
+</html>
